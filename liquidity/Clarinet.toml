@@ -1,10 +1,11 @@
-
 [project]
 name = "liquidity"
 authors = []
+description = ""
 telemetry = true
+requirements = []
 analysis = ["check_checker"]
-
-# [contracts.counter]
-# path = "contracts/counter.clar"
-# depends_on = []
+costs_version = 2
+[contracts.staking]
+path = "contracts/staking.clar"
+depends_on = []
